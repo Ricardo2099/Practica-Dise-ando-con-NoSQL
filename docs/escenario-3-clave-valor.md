@@ -139,8 +139,7 @@ para que no sea necesario habilitar CORS.
    ```
 
    Si ya tienes el proyecto, entra en su carpeta y verifica con
-   `git branch --show-current`. Estos cambios deben existir en tu copia local
-   para ejecutar el backend; todavía no se han publicado en GitHub.
+   `git branch --show-current`. Para ejecutar el escenario 3, es necesario cambiar a la rama feat/escenario-3-clave-valor, donde se encuentran el backend, la configuración de Redis y las modificaciones realizadas a la interfaz.
 
 3. Desde la raíz, descargar e iniciar Redis:
 
