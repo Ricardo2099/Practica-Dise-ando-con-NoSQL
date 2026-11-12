@@ -7,7 +7,7 @@ export default function Navegacion({ pantalla, navegar, cantidad }) {
           {['inicio', 'vuelos', 'hoteles', 'carrito'].map((opcion) => (
             <button key={opcion} className={`enlace ${pantalla === opcion ? 'activo' : ''}`} aria-current={pantalla === opcion ? 'page' : undefined} onClick={() => navegar(opcion)}>
               {opcion.charAt(0).toUpperCase() + opcion.slice(1)}
-              {opcion === 'carrito' && <span className="contador" aria-label={`${cantidad} elementos`}>{cantidad}</span>}
+              {opcion === 'carrito' && <span className="contador" aria-label={typeof cantidad === 'number' ? `${cantidad} elementos` : 'Carrito pendiente de consultar'}>{cantidad}</span>}
             </button>
           ))}
         </nav>

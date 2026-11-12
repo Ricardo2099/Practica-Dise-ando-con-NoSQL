@@ -10,6 +10,15 @@
   --suave: #687a73;
 }
 
+.estado-carrito {
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  background: #eaf1e9;
+  overflow-wrap: anywhere;
+}
+
 * {
   box-sizing: border-box;
 }
